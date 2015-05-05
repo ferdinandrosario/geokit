@@ -78,6 +78,7 @@ Options to control the use of HTTPS are described below in the Configuration sec
 
 ```ruby
     irb> require 'rubygems'
+    irb> require 'openssl'
     irb> require 'geokit'
     irb> a=Geokit::Geocoders::GoogleGeocoder.geocode '140 Market St, San Francisco, CA'
     irb> a.ll
